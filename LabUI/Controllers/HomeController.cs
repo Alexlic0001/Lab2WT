@@ -15,7 +15,8 @@ namespace LabUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+
+            return View(_logger);
         }
 
         public IActionResult Privacy()
